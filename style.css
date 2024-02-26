@@ -24,19 +24,26 @@ body {
   border-radius: 50%;
   border: 20px solid transparent;
   mix-blend-mode: overlay;
-  animation: spin 2s ease-in-out infinite;
+  animation: spin var(--duration) var(--timing) infinite;
+  pointer-events: none;
 }
 
 .spinner-sector-red {
   border-top-color: lightcoral;
+  --duration: 1s;
+  --timing: ease-in-out;
 }
 
 .spinner-sector-blue {
   border-left-color: lightblue;
+  --duration: 1.5s;
+  --timing: ease-in;
 }
 
 .spinner-sector-green {
   border-right-color: lightgreen;
+  --duration: 2s;
+  --timing: ease-out;
 }
 
 @keyframes spin {
