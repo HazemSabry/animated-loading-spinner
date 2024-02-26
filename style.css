@@ -1,6 +1,3 @@
-:root {
-}
-
 * {
   box-sizing: border-box;
   margin: 0;
@@ -27,7 +24,7 @@ body {
   border-radius: 50%;
   border: 20px solid transparent;
   mix-blend-mode: overlay;
-  animation: spin 200ms ease-in-out infinite;
+  animation: spin 2s ease-in-out infinite;
 }
 
 .spinner-sector-red {
@@ -43,6 +40,12 @@ body {
 }
 
 @keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
 
 .spinner-2 {
