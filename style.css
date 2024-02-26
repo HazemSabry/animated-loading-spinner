@@ -83,3 +83,15 @@ body {
   position: relative;
   animation: text-fade 1.5s ease-in-out infinite;
 }
+
+.spinner-2::before {
+  border-top-color: lightcoral;
+  --duration: 1s;
+  --timing: ease-in-out;
+}
+
+.spinner-2::after {
+  border-top-color: lightblue;
+  --duration: 1s;
+  --timing: ease-in-out;
+}
