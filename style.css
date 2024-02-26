@@ -8,3 +8,16 @@
 
 body {
 }
+
+.spinner-1 {
+  width: 400px;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+  overflow: hidden;
+}
+
+.spinner-2 {
+}
