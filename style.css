@@ -26,15 +26,23 @@ body {
   height: 100%;
   border-radius: 50%;
   border: 20px solid transparent;
+  mix-blend-mode: overlay;
+  animation: spin 200ms ease-in-out infinite;
 }
 
 .spinner-sector-red {
+  border-top-color: lightcoral;
 }
 
 .spinner-sector-blue {
+  border-left-color: lightblue;
 }
 
 .spinner-sector-green {
+  border-right-color: lightgreen;
+}
+
+@keyframes spin {
 }
 
 .spinner-2 {
