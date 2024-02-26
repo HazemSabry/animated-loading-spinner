@@ -73,4 +73,13 @@ body {
 }
 
 .spinner-2 {
+  width: 400px;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+  overflow: hidden;
+  position: relative;
+  animation: text-fade 1.5s ease-in-out infinite;
 }
